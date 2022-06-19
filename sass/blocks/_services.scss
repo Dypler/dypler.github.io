@@ -1,0 +1,54 @@
+.services {
+    min-height: 768px;
+    padding: 22px 0 122px 0;
+    background: url('../img/main_bg2.png') center (center/cover) no-repeat;
+    &__tabs {
+        list-style-type: none;
+        margin: 50px 160px 0 160px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__tab {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 36px;
+        color: #868FA4;
+        cursor: pointer;
+        transition: 0.2s all;
+        &:hover {
+            box-shadow: 5px 5px 20px $main-color ;
+            border: none;
+        
+        }
+        &_active {
+            color: $main-color;
+            text-decoration: underline
+        }
+    }
+    &__content {
+        display: none;
+        margin-top: 95px;
+        &_active {
+            transition: 0.9s all;
+            display: flex;
+        }
+        &_item {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: #868FA4;
+            &_text {
+                padding-top: 20px;
+            }
+        }
+        ul {
+            list-style-image: url('../icons/eclips.svg');
+        }
+
+    }
+    
+}
+li {
+    background: url()
+}

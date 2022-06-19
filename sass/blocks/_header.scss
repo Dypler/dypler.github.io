@@ -1,0 +1,36 @@
+.header {
+    padding: 41px 0px 41px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__nav {
+        padding-left: 190px;
+        margin: 0;
+        &_item {
+            display: inline;
+            padding-right: 50px;
+        }
+        &_link{
+            text-decoration: none;
+            display: inline;
+            color: #868FA4;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+        }
+    }
+    &__contacs {
+        display: inline;
+        &_item{
+            padding-left: 30px;
+            text-decoration: none;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+                color: #191919;
+        }
+        &_icons {
+            transform: translate(2px, 2px)
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.promo {
+    min-height: 650px;
+    padding: 22px 0 122px 0;
+    background: url('../img/main_bg.png') center (center/cover) no-repeat;
+}
+.parking {
+    display: flex;
+    justify-content: space-between;
+    &__title {
+        padding-bottom: 20px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 55px;
+        line-height: 74px;
+        color: #191919;
+    }
+    &__img {
+        float: right;
+    }
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 70px 12px 73px 0px;
+    &__item {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 36px;
+        color: #191919;
+        span {
+            color: $main-color;
+        }
+    }
+}
+.form {
+    padding-top: 63px;
+    &__position {
+        display: flex;
+        justify-content: space-between;
+        &_input {
+            margin-top: 11px;
+            border: 1px solid #B5C0D9;  
+            border-radius: 4px;
+            &_line {
+                transform: translate(245px, -54px)                
+            } 
+        } 
+        &_title {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            color: #868FA4;           
+        }
+        input {
+            padding-left: 2px;
+            width: 240px;
+            height: 60px;
+            background: #FFFFFF;
+            border: none;
+        }
+    }
+}
+.button {
+    margin-top: 32px;
+    border: none;
+    cursor:pointer;
+    width: 359px;
+    height: 60px;
+    background: $main-color;
+    border-radius: 4px;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    &:hover {
+        color:  $main-color;
+        background-color: #a7bfa2;
+        
+    }
+
+}
+input[type=date]::-webkit-calendar-picker-indicator{
+    // transform: translate(-100px, 0px);
+    left: 0px;
+    float: left;
+    background-image:url("../icons/date.svg") ;
+    height: 20px;
+    width: 22px;
+    
+}
+
+
+
+input[type=time]::-webkit-calendar-picker-indicator {
+    background-image:url("../icons/time.svg") ;
+    height: 20px;
+    width: 22px;
+}
+// input[type=time]::-webkit-calendar-picker-indicator{
+// 	display:none;
+// }
+// input[type=time]{
+// 	background:url("../icons/time.svg") #ffffff no-repeat 10% 50%;
+// }

@@ -1,0 +1,33 @@
+@import 'base/_variables';
+@import 'blocks/_menu';
+@import 'blocks/_promo';
+@import 'blocks/_header';
+@import 'blocks/_services';
+@import 'blocks/_grid';
+@import 'blocks/_location';
+@import 'blocks/_footer';
+
+
+
+
+* {
+    font-family: 'Proxima Nova', sans-serif;
+    // margin: 0;
+    // padding: 0;
+}
+.container {
+    position: relative;
+    max-width: 1400px;
+    margin: 0px auto;
+}
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    width: 100px;
+    height: 100px;
+    img {
+        width: 100%;
+    }
+}
